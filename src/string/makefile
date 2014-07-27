@@ -1,9 +1,9 @@
 # Un vieux makefile tout pourri
 
-CC = cc
+CC = gcc
 
-SRC = 	main.c\ 
-	sl_strlen.c\
+SRC = 	main.c \
+	sl_strlen.c 
 
 CFLAGS = -Wall -W -I./
 

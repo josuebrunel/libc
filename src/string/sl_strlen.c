@@ -1,7 +1,7 @@
-#include 'sl_strlen.h'
+#include "sl_strlen.h"
 
-int sl_strlen(*s){
-  i = 0 ;
+int sl_strlen(char *s){
+  int i = 0 ;
   while(*s){
     *s++;
     i++;
