@@ -4,6 +4,6 @@
 int main(int argc, char *argv[])
 {
   char* str = "Jon Doe";
-  printf ("len of %s is %i\n",str, sl_stren(str));
+  printf ("len of %s is %i\n",str, sl_strlen(str));
   return 0;
 }

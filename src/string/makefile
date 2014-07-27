@@ -9,7 +9,7 @@ CFLAGS = -Wall -W -I./
 
 OBJ = $(SRC:.c=.o)
 
-EXE = sl_exe
+EXE = test
 
 all:$(EXE)
 
